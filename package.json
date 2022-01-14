@@ -1,0 +1,19 @@
+{
+  "name": "vite-legacy-bug-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^1.6.4",
+    "regenerator-runtime": "^0.13.9",
+    "vite": "^2.7.12"
+  }
+}
