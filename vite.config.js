@@ -6,6 +6,9 @@ export default defineConfig({
     legacy({
       targets: ["defaults", "last 1 version", "IE >= 10", "chrome >= 63"],
       additionalLegacyPolyfills: ["regenerator-runtime/runtime"],
+      modernPolyfills: [
+        'es.string.replace-all',
+      ]
     }),
   ],
 });
